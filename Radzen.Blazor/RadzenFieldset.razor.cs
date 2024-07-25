@@ -134,7 +134,7 @@ namespace Radzen.Blazor
         string contentStyle = "";
         string summaryContentStyle = "display: none";
 
-        async System.Threading.Tasks.Task Toggle(EventArgs args)
+        public async System.Threading.Tasks.Task Toggle(EventArgs args)
         {
             collapsed = !collapsed;
             contentStyle = collapsed ? "display: none;" : "";
